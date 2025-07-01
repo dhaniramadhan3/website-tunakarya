@@ -1,0 +1,23 @@
+.btn-daftar {
+  margin-top: 12px;
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-daftar:hover {
+  background-color: #e68a00;
+}
+
+.pesan-daftar {
+  text-align: center;
+  color: #00ffb3;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-top: 15px;
+}

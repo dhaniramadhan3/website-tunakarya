@@ -1,0 +1,84 @@
+.prakerja-navbar {
+  width: 100%;
+  background: transparent;
+  padding: 20px 0 0 0;
+  position: absolute;
+  z-index: 10;
+}
+
+.prakerja-navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Logo style (gambar kiri atas) */
+.prakerja-logo img {
+  height: 150px; /* sedikit lebih besar dari sebelumnya */
+  object-fit: contain;
+  transition: transform 0.2s ease-in-out;
+}
+
+.prakerja-logo img:hover {
+  transform: scale(1.05); /* efek zoom halus saat hover */
+}
+
+.prakerja-navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.prakerja-navbar-links a {
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 1.07rem;
+  transition: color 0.12s;
+}
+
+.prakerja-navbar-links a:hover {
+  color: #ff9800;
+}
+
+.prakerja-lang {
+  color: #fff;
+  font-size: 1rem;
+  margin-right: 18px;
+  margin-left: 12px;
+}
+
+.prakerja-btn-primary {
+  background: #ff9800;
+  color: #fff !important;
+  padding: 9px 22px;
+  border-radius: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 10px;
+  border: none;
+  transition: background 0.18s;
+}
+
+.prakerja-btn-primary:hover {
+  background: #fb8c00;
+}
+
+.prakerja-btn-secondary {
+  background: #fff;
+  color: #1565d8 !important;
+  padding: 7px 20px;
+  border-radius: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 10px;
+  border: none;
+  transition: background 0.18s;
+}
+
+.prakerja-btn-secondary:hover {
+  background: #e3eafc;
+}
